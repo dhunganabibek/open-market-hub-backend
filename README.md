@@ -8,3 +8,6 @@ Open market hub backend developed using Spring Boot.
    `mvn clean install`
 2. Run using `mvn spring-boot:run`
 3. The web application is accessible via localhost:8080
+
+### Spring Security
+   Use Spring Security Generated Password or create a account with your email
