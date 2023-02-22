@@ -1,37 +1,31 @@
 package com.openmarkethub.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
-@Table(name = "Login")
+@Table(name = "users")
+@NoArgsConstructor
+@Getter
+@Setter
 public class User {
-
-
-    public User() {
-    }
-
-    public User(Integer id, String username, String password) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-    }
-
+	
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    @Column(name = "username")
-    private String username;
+    @Column(name = "name")
+    private String name;
+    
+    @Column(name = "email")
+    private String email;
 
     @Column(name="password")
     private String password;
 
+    @Column(name="about")
+    private String about;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 }

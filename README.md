@@ -11,3 +11,18 @@ Open market hub backend developed using Spring Boot.
 
 ### Spring Security
    Use Spring Security Generated Password or create a account with your email
+   
+   
+### Use of model mapper to map two different object
+```
+<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+<dependency>
+    <groupId>org.modelmapper</groupId>
+    <artifactId>modelmapper</artifactId>
+    <version>3.1.1</version>
+</dependency>
+
+```
+
+
+
