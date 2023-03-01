@@ -10,7 +10,7 @@ public class OpenmarkethubApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OpenmarkethubApplication.class, args);
-		System.out.println("hello");
+		
 	}
 	
 	
