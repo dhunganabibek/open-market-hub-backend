@@ -17,5 +17,20 @@ public class OpenmarkethubApplication {
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
 	}
+	
+	
+	
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
